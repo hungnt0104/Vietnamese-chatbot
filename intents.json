@@ -1,0 +1,62 @@
+{
+    "intents": [
+      {
+        "label": "Greet",
+        "patterns": [
+          "Xin chào!",
+          "Chào bạn!",
+          "Bẩm cụ",
+          "Thưa bác",
+      "Thưa ông bà",
+      "Chào cô",
+      "Chào",
+      "Chào buổi sáng",
+      "Rất vui được gặp bạn"
+        ],
+        "answers": [
+          "Xin chào! Mình là trợ lý ảo có thể dự báo thời tiết! Bạn cần hỗ trợ gì?"
+        ]
+      },
+      {
+        "label": "Weather",
+        "patterns": [
+          "Thời tiết hôm nay như thế nào?",
+          "Trời hôm nay thế nào?",
+          "Có mưa không?",
+            "Có nắng không?",
+          "Dự báo thời tiết cho ngày mai",
+            "Nhiệt độ hôm nay là bao nhiêu"
+        ],
+        "answers": [
+          "Dự báo thời tiết: "
+        ]
+      },
+      {
+        "label": "Goodbye",
+        "patterns": [
+          "Tạm biệt!",
+          "Hẹn gặp lại!",
+          "Chúc bạn một ngày tốt lành!"
+        ],
+        "answers": [
+          "Tạm biệt! Hẹn gặp lại bạn!",
+          "Chúc bạn một ngày tốt lành!",
+          "Hẹn gặp lại! Nếu cần giúp đỡ, hãy liên hệ!"
+        ]
+      },
+      {
+        "label": "ThankYou",
+        "patterns": [
+          "Cảm ơn!",
+          "Rất cảm ơn!",
+          "Xin cảm ơn!",
+          "Cảm ơn nhé"
+        ],
+        "answers": [
+          "Không có gì! Rất vui được giúp đỡ!",
+          "Không có gì, bạn có bất kỳ câu hỏi nào khác không?",
+          "Rất vui được hỗ trợ bạn! Nếu có gì khác, hãy nói nhé."
+        ]
+      }
+    ]
+  }
